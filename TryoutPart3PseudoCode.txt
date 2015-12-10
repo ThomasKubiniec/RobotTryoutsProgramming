@@ -1,0 +1,6 @@
+enter the number of toys on each tile (0-3)
+enter starting position
+if there are toys on bot position, remove 1 toy
+check for number of toys on current tile
+if toy number is 0, move to the next tile (check if bot is on tile 3 or 0 before moving)
+else remove another item (keep looping this if, else statement until the number of toys on the tile is 0)
