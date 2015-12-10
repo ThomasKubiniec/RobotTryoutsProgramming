@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double firstFraction = Double.parseDouble(args[0])/Double.parseDouble(args[1]);
+		double secondFraction = Double.parseDouble(args[2])/Double.parseDouble(args[3]);
+		
+		double summation = firstFraction + secondFraction;
+		double subtraction = firstFraction - secondFraction;
+		double multiplication = firstFraction*secondFraction;
+		double division = firstFraction/secondFraction;
+		
+		System.out.println(summation);
+		System.out.println(subtraction);
+		System.out.println(multiplication);
+		System.out.println(division);
+	}
+
+}
